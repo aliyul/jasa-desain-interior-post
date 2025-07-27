@@ -1,7 +1,8 @@
 
 //SUB MAPPING JasaDesainInteriorPost 
 const urlMappingJasaDesainInterior = {
-    "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-dan-furniture.html": "Jasa Desain Interior dan Furniture",
+ "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-custom.html": "Jasa Desain Interior Custom",
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-dan-furniture.html": "Jasa Desain Interior dan Furniture",
   "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-furniture.html": "Jasa Desain Interior Furniture",
   "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-terdekat.html": "Jasa Desain Interior Terdekat",
   "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-murah.html": "Jasa Desain Interior Murah",
