@@ -129,15 +129,21 @@ if (urlMappingJasaDesainInterior[cleanUrlJasaDesInPost]) {
            "@context": "https://schema.org",
            "@type": "BreadcrumbList",
            "itemListElement": [
+	    {
+	      "@type": "ListItem",
+	      "position": 1,
+	      "name": "Beton Jaya Readymix",
+	      "item": "https://www.betonjayareadymix.com/"
+	    },
                {
                    "@type": "ListItem",
-                   "position": 1,
+                   "position": 2,
                    "name": "Jasa Desain Interior",
                    "item": "https://www.betonjayareadymix.com/p/jasa-desain-interior.html"
                },
                {
                    "@type": "ListItem",
-                   "position": 2,
+                   "position": 3,
                    "name": urlMappingJasaDesainInterior[cleanUrlJasaDesInPost],
                    "item": cleanUrlJasaDesInPost
                }
