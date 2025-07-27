@@ -123,9 +123,30 @@ if (urlMappingJasaDesainInterior[cleanUrlJasaDesInPost]) {
        // JasaBorAirPostLink.style.visibility = 'visible';
         pageNameJasaDesInPost.textContent = urlMappingJasaDesainInterior[cleanUrlJasaDesInPost];
     }
-	   // ✅ Tambahkan logika penyesuaian judul halaman ke elemen ID tertentu
-  const title = document.title.replace(" - beton jaya readymix", "").trim();
-  const targets = document.querySelectorAll(".judulHalamanOtomatis");
-  targets.forEach(el => el.textContent = title);
+   // ✅ Tambahkan JSON-LD Breadcrumb otomatis
+   if (urlMappingJasaDesainInterior[cleanUrlJasaDesInPost]) {
+       const jsonLDBreadcrumb = {
+           "@context": "https://schema.org",
+           "@type": "BreadcrumbList",
+           "itemListElement": [
+               {
+                   "@type": "ListItem",
+                   "position": 1,
+                   "name": "Jasa Desain Interior",
+                   "item": "https://www.betonjayareadymix.com/p/jasa-desain-interior.html"
+               },
+               {
+                   "@type": "ListItem",
+                   "position": 2,
+                   "name": urlMappingJasaDesainInterior[cleanUrlJasaDesInPost],
+                   "item": cleanUrlJasaDesInPost
+               }
+           ]
+       };
 
+       const script = document.createElement('script');
+       script.type = 'application/ld+json';
+       script.text = JSON.stringify(jsonLDBreadcrumb);
+       document.head.appendChild(script);
+   }
    });
