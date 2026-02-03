@@ -210,89 +210,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
     }
 	
-      	    (async function runHybridDateModified() {
-		  try {
-		
-		    function loadExternalJS(src) {
-		      return new Promise((resolve) => {
-		        if (document.querySelector(`script[src="${src}"]`)) {
-		          resolve();
-		          return;
-		        }
-		
-		        const s = document.createElement("script");
-		        s.src = src;
-		        s.defer = true; // 🔥 PENTING
-		        s.onload = resolve;
-		        s.onerror = () => {
-		          console.warn("[Evergreen] Gagal load:", src);
-		          resolve(); // ❗ jangan reject
-		        };
-		        document.head.appendChild(s);
-		      });
-		    }
-		
-		    function waitForDetectEvergreen() {
-		      return new Promise((resolve) => {
-		        if (
-		          window.__detectEvergreenReady &&
-		          typeof window.detectEvergreen === "function"
-		        ) {
-		          resolve(true);
-		        } else {
-		          window.addEventListener(
-		            "detectEvergreenReady",
-		            () => resolve(true),
-		            { once: true }
-		          );
-		        }
-		      });
-		    }
-		
-		    async function loadEvergreenScript(manualDate = null) {
-		
-		      if (typeof window.detectEvergreen !== "function") {
-		        console.log("⏳ Loading detectEvergreen...");
-		
-		        await loadExternalJS(
-		          "https://raw.githack.com/aliyul/solution-blogger/main/detect-evergreen.js"
-		        );
-		
-		        await waitForDetectEvergreen();
-		        console.log("✅ detectEvergreen READY");
-		      } else {
-		        console.log("⚡ detectEvergreen already available");
-		      }
-		
-		      const config = manualDate
-		        ? { customDateModified: manualDate }
-		        : {};
-		
-		      console.log("🧠 detectEvergreen config:", config);
-		
-		      try {
-		        window.detectEvergreen(config);
-		      } catch (e) {
-		        console.error("[Evergreen] Execution failed:", e);
-		      }
-		    }
-		
-		    // =============================
-		    // MODE PEMANGGILAN
-		    // =============================
-		
-		    // ✔ MANUAL (ONCE UPDATE EVERGREEN)
-		    await loadEvergreenScript("2026-01-12T10:30:00+07:00");
-		
-		    // ✔ AUTO MODE
-		    // await loadEvergreenScript();
-		
-		  } catch (err) {
-		    console.error("[HybridDateModified] Fatal:", err);
-		  }
-		})();
-
-
      var JasaDesainInteriorPostLink = document.getElementById("JasaDesainInteriorPost");
      //var JasaCuttingBetonPostLink = document.getElementById("JasaCuttingBetonPost");/
     	
@@ -382,4 +299,88 @@ if (urlMappingJasaDesainInterior[cleanUrlJasaDesInPost]) {
        script.text = JSON.stringify(jsonLDBreadcrumb);
        document.head.appendChild(script);
    }
+
+ if (urlMappingJasaDesainInterior[cleanUrlJasaDesInPost]) {
+          	    (async function runHybridDateModified() {
+		  try {
+		
+		    function loadExternalJS(src) {
+		      return new Promise((resolve) => {
+		        if (document.querySelector(`script[src="${src}"]`)) {
+		          resolve();
+		          return;
+		        }
+		
+		        const s = document.createElement("script");
+		        s.src = src;
+		        s.defer = true; // 🔥 PENTING
+		        s.onload = resolve;
+		        s.onerror = () => {
+		          console.warn("[Evergreen] Gagal load:", src);
+		          resolve(); // ❗ jangan reject
+		        };
+		        document.head.appendChild(s);
+		      });
+		    }
+		
+		    function waitForDetectEvergreen() {
+		      return new Promise((resolve) => {
+		        if (
+		          window.__detectEvergreenReady &&
+		          typeof window.detectEvergreen === "function"
+		        ) {
+		          resolve(true);
+		        } else {
+		          window.addEventListener(
+		            "detectEvergreenReady",
+		            () => resolve(true),
+		            { once: true }
+		          );
+		        }
+		      });
+		    }
+		
+		    async function loadEvergreenScript(manualDate = null) {
+		
+		      if (typeof window.detectEvergreen !== "function") {
+		        console.log("⏳ Loading detectEvergreen...");
+		
+		        await loadExternalJS(
+		          "https://raw.githack.com/aliyul/solution-blogger/main/detect-evergreen.js"
+		        );
+		
+		        await waitForDetectEvergreen();
+		        console.log("✅ detectEvergreen READY");
+		      } else {
+		        console.log("⚡ detectEvergreen already available");
+		      }
+		
+		      const config = manualDate
+		        ? { customDateModified: manualDate }
+		        : {};
+		
+		      console.log("🧠 detectEvergreen config:", config);
+		
+		      try {
+		        window.detectEvergreen(config);
+		      } catch (e) {
+		        console.error("[Evergreen] Execution failed:", e);
+		      }
+		    }
+		
+		    // =============================
+		    // MODE PEMANGGILAN
+		    // =============================
+		
+		    // ✔ MANUAL (ONCE UPDATE EVERGREEN)
+		    await loadEvergreenScript("2026-01-12T10:30:00+07:00");
+		
+		    // ✔ AUTO MODE
+		    // await loadEvergreenScript();
+		
+		  } catch (err) {
+		    console.error("[HybridDateModified] Fatal:", err);
+		  }
+		})();
+      }
    });
