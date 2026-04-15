@@ -1,33 +1,194 @@
 
 //SUB MAPPING JasaDesainInteriorPost 
+// ============================================================
+// JASA DESAIN INTERIOR - MONEY PAGE & VARIANT
+// ============================================================
+// 🧠 SEO NOTE: Semua item adalah [MONEY PAGE] karena intent transaksional/lead generation
+// Parent: Jasa Desain Interior (/p/jasa-desain-interior.html)
+// ============================================================
+
 const urlMappingJasaDesainInterior = {
- "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-custom.html": "Jasa Desain Interior Custom",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-dan-furniture.html": "Jasa Desain Interior dan Furniture",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-furniture.html": "Jasa Desain Interior Furniture",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-terdekat.html": "Jasa Desain Interior Terdekat",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-murah.html": "Jasa Desain Interior Murah",
-  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-depok.html": "Jasa Desain Interior Depok",
-  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-bogor.html": "Jasa Desain Interior Bogor",
-  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-bekasi.html": "Jasa Desain Interior Bekasi",
-  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-jakarta.html": "Jasa Desain Interior Jakarta",
-  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-tangerang.html": "Jasa Desain Interior Tangerang",
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR CUSTOM
+  // 🧠 STATUS: AKTIF (konten ada, meskipun minimal)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Custom
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-custom.html": "Jasa Desain Interior Custom [MONEY PAGE]",
 
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-rumah.html": "Harga Jasa Desain Interior Rumah",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-apartemen.html": "Jasa Desain Interior Apartemen",
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-hotel.html": "Harga Jasa Desain Interior Hotel",
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-dapur.html": "Harga Jasa Desain Interior Dapur",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-kamar.html": "Jasa Desain Interior Kamar",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-ruangan.html": "Jasa Desain Interior Ruangan",
-  "https://www.betonjayareadymix.com/2018/09/harga-desain-interior-kamar-mandi.html": "Harga Desain Interior Kamar Mandi",
-  "https://www.betonjayareadymix.com/2018/09/harga-desain-interior-kamar.html": "Harga Desain Interior Kamar",
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-kamar-tidur.html": "Harga Jasa Desain Interior Kamar Tidur",
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-per-meter.html": "Harga Jasa Desain Interior Per Meter",
-  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-ruang-tamu.html": "Harga Jasa Desain Interior Ruang Tamu",
-  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-per-m2.html": "Jasa Desain Interior Per M2",
-  "https://www.betonjayareadymix.com/2018/09/jasa-interior-desain-terdekat.html": "Jasa Interior Desain Terdekat",
-  "https://www.betonjayareadymix.com/2018/09/jasa-interior-desain.html": "Jasa Interior Desain"
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR DAN FURNITURE
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior dan Furniture
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-dan-furniture.html": "Jasa Desain Interior dan Furniture [MONEY PAGE]",
 
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR FURNITURE
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Furniture
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-furniture.html": "Jasa Desain Interior Furniture [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR TERDEKAT
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Terdekat
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-terdekat.html": "Jasa Desain Interior Terdekat [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR MURAH
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Murah
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-murah.html": "Jasa Desain Interior Murah [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR DEPOK (LOKASI)
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Depok
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-depok.html": "Jasa Desain Interior Depok [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR BOGOR (LOKASI)
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Bogor
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-bogor.html": "Jasa Desain Interior Bogor [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR BEKASI (LOKASI)
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Bekasi
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-bekasi.html": "Jasa Desain Interior Bekasi [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR JAKARTA (LOKASI)
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Jakarta
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-jakarta.html": "Jasa Desain Interior Jakarta [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR TANGERANG (LOKASI)
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Tangerang
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/11/jasa-desain-interior-tangerang.html": "Jasa Desain Interior Tangerang [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR RUMAH
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Rumah
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-rumah.html": "Harga Jasa Desain Interior Rumah [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR APARTEMEN
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Apartemen
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-apartemen.html": "Jasa Desain Interior Apartemen [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR HOTEL
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Hotel
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-hotel.html": "Harga Jasa Desain Interior Hotel [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR DAPUR
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Dapur
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-dapur.html": "Harga Jasa Desain Interior Dapur [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR KAMAR
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Kamar
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-kamar.html": "Jasa Desain Interior Kamar [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR RUANGAN
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Ruangan
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-ruangan.html": "Jasa Desain Interior Ruangan [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA DESAIN INTERIOR KAMAR MANDI
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Desain Interior Kamar Mandi
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-desain-interior-kamar-mandi.html": "Harga Desain Interior Kamar Mandi [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA DESAIN INTERIOR KAMAR
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Desain Interior Kamar
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-desain-interior-kamar.html": "Harga Desain Interior Kamar [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR KAMAR TIDUR
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Kamar Tidur
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-kamar-tidur.html": "Harga Jasa Desain Interior Kamar Tidur [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR PER METER
+  // 🧠 STATUS: AKTIF (konten lengkap - dari URL jasa-desain-interior-per-m2.html)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Per Meter
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-per-meter.html": "Harga Jasa Desain Interior Per Meter [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - HARGA JASA DESAIN INTERIOR RUANG TAMU
+  // 🧠 STATUS: PERLU DICEK (belum ada konten dari URL yang diberikan)
+  // Breadcrumb: Home > Jasa Desain Interior > Harga Jasa Desain Interior Ruang Tamu
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/harga-jasa-desain-interior-ruang-tamu.html": "Harga Jasa Desain Interior Ruang Tamu [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA DESAIN INTERIOR PER M2
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Desain Interior Per M2
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-desain-interior-per-m2.html": "Jasa Desain Interior Per M2 [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA INTERIOR DESAIN TERDEKAT
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Interior Desain Terdekat
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-interior-desain-terdekat.html": "Jasa Interior Desain Terdekat [MONEY PAGE]",
+
+  // ============================================================
+  // [MONEY PAGE] - JASA INTERIOR DESAIN
+  // 🧠 STATUS: AKTIF (konten lengkap)
+  // Breadcrumb: Home > Jasa Desain Interior > Jasa Interior Desain
+  // ============================================================
+  "https://www.betonjayareadymix.com/2018/09/jasa-interior-desain.html": "Jasa Interior Desain [MONEY PAGE]"
 };
+/*
+Jenis TYPE yang digunakan:
+
+[MONEY PAGE] — halaman transaksional/lead generation (harga, jasa, konsultasi)
+
+Status yang digunakan:
+
+AKTIF — URL dapat diakses dan memiliki konten
+
+PERLU DICEK — URL belum diverifikasi kontennya
+
+
+*/
 // Menyimpan elemen yang dihapus dalam variabel
 let removedElementsJasaDesInPost = {};
 // Fungsi untuk menghapus elemen berdasarkan ID
